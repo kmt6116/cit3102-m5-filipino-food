@@ -3,41 +3,11 @@
 
 **Project Title:** Build Your Own API – Filipino Food Menu API
 
-**Partners:** Kyle Tan and Zarzoso
+**Partners:** Kyle Tan and Jaira Zarzoso
 
-**Section:** IT2D
+**Section:** IT2E
 
 **Resource:** Filipino Food Menu
-
-## Project Description
-
-The Filipino Food Menu API is a RESTful API that manages Filipino food and beverages. It has three categories: Meals, Snacks, and Drinks. Users can register, log in, view, add, update, delete, and filter menu items. Each item has a name, category, description, price, and availability. The project uses Laravel, SQLite, and Laravel Sanctum for database management and authentication.
-
-## Menu Categories
-
-### Meals
-
-- Chicken Adobo
-- Sinigang
-- Sisig
-- Kare-Kare
-- Fried Chicken
-
-### Snacks
-
-- Lumpia
-- Turon
-- Banana Cue
-- Fish Balls
-- Siomai
-
-### Drinks
-
-- Buko Juice
-- Calamansi Juice
-- Sago't Gulaman
-- Salabat
-- Gulaman
 
 ## Setup Instructions
 
@@ -97,18 +67,12 @@ Requirements: PHP, Composer, Git, and Bruno.
 | PUT | `/api/foods/{food}` | Update a food item | Yes |
 | DELETE | `/api/foods/{food}` | Delete a food item | Yes |
 
-## Filtering Examples
-
-- `GET /api/foods?category=Meals`
-- `GET /api/foods?category=Snacks`
-- `GET /api/foods?category=Drinks`
-- `GET /api/foods?category=Meals&availability=1`
 
 ## Bruno Test Screenshots
 
 Insert the actual screenshots from Step 6 in this section.
 
-1. Register a new user — 201 Created
+1. 
 2. Login with that user — 200 OK
 3. Get foods without a token — 401 Unauthorized
 4. Get foods with a token — 200 OK
