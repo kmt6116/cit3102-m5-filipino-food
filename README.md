@@ -72,7 +72,11 @@ Requirements: PHP, Composer, Git, and Bruno.
 
 Insert the actual screenshots from Step 6 in this section.
 
+<<<<<<< HEAD
 1. 
+=======
+1. Register a new user — 201 Created 
+>>>>>>> 582ec4d13ff9bbb13d5c53cc21344f8ca5448006
 2. Login with that user — 200 OK
 3. Get foods without a token — 401 Unauthorized
 4. Get foods with a token — 200 OK
