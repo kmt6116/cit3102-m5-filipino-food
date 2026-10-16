@@ -70,10 +70,8 @@ Requirements: PHP, Composer, Git, and Bruno.
 
 ## Bruno Test Screenshots
 
-Insert the actual screenshots from Step 6 in this section.
+1. Register a new user — 201 Created 
 
-1. Register a new user — 201 Created
-   ![Register Screenshot](cit3102-m5-filipino-food/cf5083b1-c15d-41cf-8747-9ae7fe1d463c.jpg)
 2. Login with that user — 200 OK
    
 3. Get foods without a token — 401 Unauthorized
