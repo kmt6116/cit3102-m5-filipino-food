@@ -73,26 +73,25 @@ Requirements: PHP, Composer, Git, and Bruno.
 Insert the actual screenshots from Step 6 in this section.
 
 1. Register a new user — 201 Created
-   ![Register Screenshot](cf5083b1-c15d-41cf-8747-9ae7fe1d463c.jpg)
+   ![Register Screenshot](cit3102-m5-filipino-food/cf5083b1-c15d-41cf-8747-9ae7fe1d463c.jpg)
 2. Login with that user — 200 OK
-   ![Login Screenshot](10d0e7bf-5136-441d-9224-6c649fdc8e33.jpg)
+   
 3. Get foods without a token — 401 Unauthorized
-   ![get food without token Screenshot](bdaa1def-fa09-4b91-824b-e2ff9b017126.jpg)
+   
 4. Get foods with a token — 200 OK
-   ![get food with token Screenshot](9e812d1c-ac68-4abe-b89d-de76043710ec.jpg)
+   
 5. Create a food item — 201 Created
-   ![create Screenshot](fc5415eb-e283-449d-a485-f4cdb9393380.jpg)
+   
 6. Create a food item with a required field missing — 422 Unprocessable Content
-   ![with required field missing Screenshot](a98c7721-87d4-476b-8282-f9ab01743717.jpg)
+   
 7. Get an existing food item — 200 OK
-   ![existing Screenshot](cf02ecd6-39bf-4fde-8359-6a32fdfd6c1c.jpg)
+   
 8. Get a nonexistent food item — 404 Not Found
-   ![none existent Screenshot](d83d287e-9962-4455-a92b-7e5beb46ea19.jpg)
+   
 9. Update an existing food item — 200 OK
-   ![update Screenshot](066ebbcc-fae0-4e1e-9561-9505ca6a4d65.jpg)
+   
 10. Delete a food item — 204 No Content
-   ![delete Screenshot](d68e7501-8d74-44c2-9d0d-0127867e41f1.jpg)
-
+   
 
 ## Why Does DELETE Return 204 Instead of 200?
 
