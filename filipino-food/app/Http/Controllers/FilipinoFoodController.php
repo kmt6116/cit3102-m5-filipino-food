@@ -126,6 +126,8 @@ class FilipinoFoodController extends Controller
 
     public function destroy(string $id)
     {
+
+    //
         $food = FilipinoFood::findOrFail($id);
         $food->delete();
 
